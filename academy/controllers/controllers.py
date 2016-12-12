@@ -17,7 +17,8 @@ class Academy(http.Controller):
 #             'objects': http.request.env['academy.academy'].search([]),
 #         })
 
-#     @http.route('/academy/academy/objects/<model("academy.academy"):obj>/', auth='public')
+#     @http.route('/academy/academy/objects/<model("academy.academy"):obj>/',
+#                 auth='public')
 #     def object(self, obj, **kw):
 #         return http.request.render('academy.object', {
 #             'object': obj
