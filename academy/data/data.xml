@@ -4,5 +4,8 @@
             <field name="name">Courses</field>
             <field name="parent_id" ref="website_sale.services"/>
         </record>
+        <record id="website_sale.products_categories" model="ir.ui.view">
+            <field name="active" eval="True"/>
+        </record>
     </data>
 </odoo>
